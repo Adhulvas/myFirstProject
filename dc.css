@@ -53,3 +53,11 @@ body {
 .carousel {
     margin-top: 56px;
 }
+
+.hot-topics {
+    font-size: 12px;
+}
+
+.moreCommunity:hover {
+    color: #0074e8;
+}
