@@ -61,3 +61,15 @@ body {
 .moreCommunity:hover {
     color: #0074e8;
 }
+
+.footer {
+    transition: color .5s;
+}
+
+.footer:hover {
+    color: #0074e8;
+}
+
+.bgdark {
+    background-color: black;
+}
