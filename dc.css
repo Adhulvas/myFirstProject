@@ -7,3 +7,49 @@ body {
     font-weight: bold;
     color: black;
 }
+
+.d-block {
+    height: 440px;
+    object-fit:cover;
+}
+
+.buy-button {
+ position: absolute;
+ bottom: 5%;
+ left: 10%;
+ font-size: 15px;
+ font-weight: bold;
+ font-family: Reddit sans condensed, Arial, Helvetica, sans-serif;
+ padding: 5px 50px;
+ border-radius: 20px;
+ border: none;
+ transition: background-color .5s, color 0.5s;  
+}
+
+.buy-button:hover {
+    background-color: #0074e8;
+    color: white;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .buy-button {
+      left: 40%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .buy-button {
+      left: 40%;
+      bottom: 45%;
+    }
+}
+@media (max-width: 576px) {
+    .buy-button {
+      bottom: 45%;
+      left: 10%;
+      right: 10%; 
+    }
+}
+
+.carousel {
+    margin-top: 56px;
+}
